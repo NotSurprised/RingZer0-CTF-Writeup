@@ -21,6 +21,6 @@ for((i=0;i<=1000;i++))
 如果出現 `Syntax error: Bad for loop variable`
 輸入 `sudo dpkg-reconfigure dash`
 選擇 No 把 dash 關掉再試試看，
-也許是 dash 搞的鬼。
+也許是 dash 的問題。
 
 ![](https://i.imgur.com/9qQnEG9.png)
