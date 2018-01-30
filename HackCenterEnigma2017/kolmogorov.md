@@ -1,0 +1,16 @@
+# **kolmogorov**
+![](https://i.imgur.com/4TP1tDn.png)
+```
+var array1='';
+var count = 1697
+while(count>0)
+{
+	array1='y'+array1;
+	count--
+}
+console.log(array1);
+```
+![](https://i.imgur.com/Wp55xdo.png)
+in browser console, ctrl+c ctrl+v.
+![](https://i.imgur.com/8ZuUesi.png)
+

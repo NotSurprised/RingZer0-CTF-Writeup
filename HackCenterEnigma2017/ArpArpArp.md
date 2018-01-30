@@ -1,0 +1,9 @@
+# **ArpArpArp**
+![](https://i.imgur.com/mu7AxTE.png)
+Forensics wireshark file.
+![](https://i.imgur.com/qmgo4Mj.png)
+![](https://i.imgur.com/1O2nWMI.png)
+it seems 192.168.2.10 has been hijack or replace, and sending something in UDP.
+![](https://i.imgur.com/67EazVc.png)
+markdown all the last bytes in UDP from 192.168.2.10 and you get the key.
+![](https://i.imgur.com/mzvY6Sy.png)
