@@ -1,6 +1,7 @@
 # **AIS3 pre-exam Crypto 2**
 
 ![](https://i.imgur.com/dCNl18B.png)
+
 crypto 2，官方好像是希望我們用hash extension attack，
 但是從它的演算法中會發現它給我們的expire跟auth本身是一對的，
 這已經可以通過第一階段認證，再來的問題就只剩他還要求expire>time(0)而已。
@@ -12,4 +13,5 @@ crypto 2，官方好像是希望我們用hash extension attack，
 ![](https://i.imgur.com/nE8rmQu.png)
 
 正規解法。
+
 ![](https://i.imgur.com/5OEsEer.png)
