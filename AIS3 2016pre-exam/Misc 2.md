@@ -1,6 +1,7 @@
 # **AIS3 pre-exam Misc 2**
 
 ![](https://i.imgur.com/JA0pjHG.png)
+
 ```
 #!/bin/bash
 for((i=0;i<=1000;i++))
