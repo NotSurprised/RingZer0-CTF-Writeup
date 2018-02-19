@@ -4,6 +4,7 @@
 ![](https://i.imgur.com/LlV9BvF.png)
 ![](https://i.imgur.com/X1x1pAE.png)
 ![](https://i.imgur.com/aKLfowH.png)
+
 使用../檔案可以向上推一層取得其他目錄中的php，依序是`index`、`download`、`waf`、`you_should_not_pass`
 
 依據`waf.php`可以嚴重懷疑flag為名的txt、php檔案格式，
@@ -15,4 +16,5 @@
 根據[https://bugs.php.net/bug.php?id=55511](https://bugs.php.net/bug.php?id=55511)所示範的巫術，
 
 可以得知只要在`query`欄位裡增加某個值等於`/1:2`，就能讓整個`parse_url`失效。所以在url後面補上`/1:2`即可。
+
 ![](https://i.imgur.com/aWqA1ts.png)
