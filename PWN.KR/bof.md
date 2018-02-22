@@ -32,7 +32,7 @@ Cuz to bufferoverflow type's question, we should install a plugin to gdb, it may
 
 ![](https://i.imgur.com/0qX7YbU.png)
 
-Then, change the .ELF you downloaded from the website by `chmod 777 bof`.(if you are not compiling in x86 system)
+Then, change the .ELF you downloaded from the website by `chmod 777 bof`.(if your compiler settings is not the same to this question)
 
 Starting trace code with `gdb ./bof`.
 
