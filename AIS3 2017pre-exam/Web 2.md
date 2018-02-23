@@ -1,5 +1,5 @@
 # **AIS3 pre-exam Web 2**
-`<?php include("flag.php"); if (isset($_GET["source"])) {     show_source(__FILE__);     exit(); } $db = array(     array("username" => "delicia", "password" => "6d386d56781b744d31328faace811444"),
+``<?php include("flag.php"); if (isset($_GET["source"])) {     show_source(__FILE__);     exit(); } $db = array(     array("username" => "delicia", "password" => "6d386d56781b744d31328faace811444"),
     array("username" => "earnest", "password" => "907d82744bb98e956f82077a20cf92d3"),
     array("username" => "chaya", "password" => "0c914720b899f04c3522a6a467d23e07"),
     array("username" => "carlos", "password" => "4a84296507efdac241f300b4676c8448"),
@@ -72,5 +72,6 @@ if (isset($_POST["username"]) and isset($_POST["password"]))
         $msg = "Invalid username or password.";
     }
 }
-?>`
+?>``
+
 PHP漏洞，比對MD5時，`0e`開頭的任何字串都會Match。

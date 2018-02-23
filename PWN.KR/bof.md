@@ -27,7 +27,9 @@ int main(int argc, char* argv[]){
 ![](https://i.imgur.com/nhWAWPJ.png)
 
 Cuz to bufferoverflow type's question, we should install a plugin to gdb, it may help a lot.
+
 `git clone https://github.com/longld/peda.git ~/peda`
+
 `echo "source ~/peda/peda.py" >> ~/.gdbinit`
 
 ![](https://i.imgur.com/0qX7YbU.png)

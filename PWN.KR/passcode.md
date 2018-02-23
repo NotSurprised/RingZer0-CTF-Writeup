@@ -52,7 +52,7 @@ int main(){
 }
 ```
 
-Cuz to `scanf("%d", passcode1);` scan without **&**, so we can input a memory address to make it become a function overwriter.
+Cuz to `scanf("%d", passcode1);` scan without "&", so we can input a memory address to make it overwrittrn to another function.
 
 Accroding to designer's planning, there's a suspicious function : `fflush(stdin);`.
 
