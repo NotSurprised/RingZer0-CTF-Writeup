@@ -53,7 +53,7 @@ We now get rid of process, let's use bash to cat the flag.
 level1@lxc17-bash-jail:~$ ls 1>&2
 flag.txt  prompt.sh
 level1@lxc17-bash-jail:~$ cat flag.txt 1>&2
-FLAG-U96l4k6m72a051GgE5EN0rA85499172K
+FLAG-XXXXXX
 ```
 
 `1>&2` means redirect stdout to stderr, it outputs the message to stderr.

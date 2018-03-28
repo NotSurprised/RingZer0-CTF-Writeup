@@ -58,5 +58,5 @@ Your input:
 Your command is: level2
 Your input:
 `</home/level2/flag.txt`
-Your command is: FLAG-a78i8TFD60z3825292rJ9JK12gIyVI5P
+Your command is: FLAG-XXXXXX
 ```

@@ -43,6 +43,6 @@ Your input:
 ```
 Your input:
 echo(file_get_contents('flag.txt'));
-FLAG-sW66QEY4y6724723c7w1i0oMt179E75y
+FLAG-XXXXXX
 Command executed
 ```
