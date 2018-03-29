@@ -51,7 +51,7 @@ eval $(<flag.txt) 2>&0
 Command executed
 ```
 
-Another method
+※Another method(more interesting one)
 
 ```
 Your input:
