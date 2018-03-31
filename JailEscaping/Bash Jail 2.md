@@ -2,7 +2,7 @@
 
 ![](https://i.imgur.com/vUtYZIh.png)
 
-```
+```shell=
 ubuntu@ubuntu-virtual-machine:~$ ssh level2@challenges.ringzer0team.com -p 10219 
 
 level2@challenges.ringzer0team.com's password: 
@@ -40,7 +40,7 @@ done
 Your input:
 ```
 
-```
+```shell=
 Your input:
 cat /home/level2/flag.txt
 Restricted characters has been used
@@ -65,7 +65,7 @@ Your command is: FLAG-XXXXXX
 
 ![](https://i.imgur.com/bXOwyrj.png)
 
-```
+```shell=
 Your input:
 $(<flag.txt)
 Your command is: FLAG-XXXXXX

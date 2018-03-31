@@ -1,15 +1,16 @@
-# **Bash Jail 3**
+# **Bash Jail 4**
 
 ```shell=
-ubuntu@ubuntu-virtual-machine:~$ ssh level3@challenges.ringzer0team.com -p 10220
-level3@challenges.ringzer0team.com's password: 
+ubuntu@ubuntu-virtual-machine:~$ ssh level4@challenges.ringzer0team.com -p 10221 
+
+level4@challenges.ringzer0team.com's password: 
 
 RingZer0 Team Online CTF
 
-BASH Jail Level 3:
-Current user is uid=1002(level3) gid=1002(level3) groups=1002(level3)
+BASH Jail Level 4:
+Current user is uid=1003(level4) gid=1003(level4) groups=1003(level4)
 
-Flag is located at /home/level3/flag.txt
+Flag is located at /home/level4/flag.txt
 
 Challenge bash code:
 -----------------------------
@@ -19,7 +20,7 @@ WARNING: this prompt is launched using ./prompt.sh 2>/dev/null
 # CHALLENGE
 
 function check_space {
-	if [[ $1 == *[bdksc]* ]]
+	if [[ $1 == *[bdksc'/''<''>''&''$']* ]]
 	then 	
     		return 0
 	fi
@@ -35,7 +36,7 @@ do
 	then
 		echo -e '\033[0;31mRestricted characters has been used\033[0m'
 	else
-		output=`$input` &>/dev/null
+		output=`$input < /dev/null` &>/dev/null
 		echo "Command executed"
 	fi
 done 
@@ -44,14 +45,11 @@ done
 Your input:
 ```
 
-```shell=
-Your input:
-eval $(<flag.txt) 2>&0
-./real.sh: line 39: FLAG-XXXXXX: command not found
-Command executed
-```
+Bash Jail 3's first resolution cannot work this time.
 
-※Another method(more interesting one)
+Fortunately, method 2 still work this time.
+
+Let's simply build a HTTP server to receive requests from level1.
 
 ```shell=
 Your input:
@@ -59,12 +57,10 @@ s
 Restricted characters has been used
 Your input:
 S
+Command executed
 Your input:
-python -m SimpleHTTPServer
+python -m SimpleHTTPServer 8000
 ```
-
-Back to Bash Jail 1.
-
 ```shell=
 /bin/bash
 

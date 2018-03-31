@@ -1,6 +1,6 @@
 # **PHP Jail 2**
 
-```
+```shell=
 ubuntu@ubuntu-virtual-machine:~$ ssh level2@challenges.ringzer0team.com -p 10224 
 
 level2@challenges.ringzer0team.com's password: 

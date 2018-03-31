@@ -2,7 +2,7 @@
 
 ![](https://i.imgur.com/hBRN91L.png)
 
-```
+```shell=
 ubuntu@ubuntu-virtual-machine:~$ ssh level1@challenges.ringzer0team.com -p 10218 
 The authenticity of host '[challenges.ringzer0team.com]:10218 ([78.109.87.50]:10218)' can't be established.
 ECDSA key fingerprint is SHA256:gJjkCupg596odLvqiT3qRhgElHttbotOA6m3sn3BDEY.
@@ -31,7 +31,7 @@ done
 Your input:
 ```
 
-```
+```shell=
 Your input:
 ls
 Your input:
@@ -41,7 +41,7 @@ Your input:
 
 No feedback(still in process), let's execute bash to try to get some feedback.
 
-```
+```shell=
 Your input:
 /bin/bash
 level1@lxc17-bash-jail:~$ 
@@ -49,7 +49,7 @@ level1@lxc17-bash-jail:~$
 
 We now get rid of process, let's use bash to cat the flag.
 
-```
+```shell=
 level1@lxc17-bash-jail:~$ ls 1>&2
 flag.txt  prompt.sh
 level1@lxc17-bash-jail:~$ cat flag.txt 1>&2

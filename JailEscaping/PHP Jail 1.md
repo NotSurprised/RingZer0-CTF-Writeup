@@ -1,6 +1,6 @@
 # **PHP Jail 1**
 
-```
+```shell=
 ubuntu@ubuntu-virtual-machine:~$ ssh level1@challenges.ringzer0team.com -p 10223
 
 level1@challenges.ringzer0team.com's password: 
@@ -40,7 +40,7 @@ echo "\n";
 Your input:
 ```
 
-```
+```shell=
 Your input:
 echo(file_get_contents('flag.txt'));
 FLAG-XXXXXX
