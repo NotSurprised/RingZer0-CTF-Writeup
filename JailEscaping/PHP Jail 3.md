@@ -51,7 +51,7 @@ In warning, there's a lot of functions has been disable, but not `highlight_file
 
 ```shell=
 Your input:
-highlight_file("flag.txt"[0]);
+highlight_file("flag.txt");
 Restricted characters has been used
 ```
 
@@ -66,3 +66,5 @@ highlight_file(glob("fl*txt")[0]);
 FLAG-XXXXXX<br /></span>
 </code>Command executed
 ```
+
+`[0]` is need by `highlight_file()`, cuz glob() doesn't return specific path.
