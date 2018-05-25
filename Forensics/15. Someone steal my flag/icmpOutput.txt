@@ -1,0 +1,1990 @@
+No.     Time           Source                Destination           Protocol Length Info
+    164 3.475486       192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 164: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 48518 (48518), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0xb4c4
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            5647687063794270.192.168.191.129: type A, class IN
+                Name: 5647687063794270.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    169 8.501238       192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 169: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 48518 (48518), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0xb4c4
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            5647687063794270.192.168.191.129: type A, class IN
+                Name: 5647687063794270.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    174 13.538515      192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 174: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 54112 (54112), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0x5f3f
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            6379426849484e6c.192.168.191.129: type A, class IN
+                Name: 6379426849484e6c.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    180 15.066461      192.168.191.129       173.194.46.88         ICMP     98     Echo (ping) request  id=0x0c89, seq=1/256, ttl=64 (reply in 181)
+
+Frame 180: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 173.194.46.88
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x7ca1 [correct]
+    Identifier (BE): 3209 (0x0c89)
+    Identifier (LE): 35084 (0x890c)
+    Sequence number (BE): 1 (0x0001)
+    Sequence number (LE): 256 (0x0100)
+    [Response frame: 181]
+    Timestamp from icmp data: May 13, 2014 03:49:33.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.586945000 seconds]
+    Data (48 bytes)
+
+0000  6f 88 02 00 00 00 00 00 10 11 12 13 14 15 16 17   o...............
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: 6f88020000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    181 15.099346      173.194.46.88         192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0c89, seq=1/256, ttl=128 (request in 180)
+
+Frame 181: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 173.194.46.88, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0x84a1 [correct]
+    Identifier (BE): 3209 (0x0c89)
+    Identifier (LE): 35084 (0x890c)
+    Sequence number (BE): 1 (0x0001)
+    Sequence number (LE): 256 (0x0100)
+    [Request frame: 180]
+    [Response time: 32.885 ms]
+    Timestamp from icmp data: May 13, 2014 03:49:33.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.619830000 seconds]
+    Data (48 bytes)
+
+0000  6f 88 02 00 00 00 00 00 10 11 12 13 14 15 16 17   o...............
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: 6f88020000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    184 16.071571      192.168.191.129       173.194.46.88         ICMP     98     Echo (ping) request  id=0x0c89, seq=2/512, ttl=64 (reply in 185)
+
+Frame 184: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 173.194.46.88
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x228c [correct]
+    Identifier (BE): 3209 (0x0c89)
+    Identifier (LE): 35084 (0x890c)
+    Sequence number (BE): 2 (0x0002)
+    Sequence number (LE): 512 (0x0200)
+    [Response frame: 185]
+    Timestamp from icmp data: May 13, 2014 03:49:34.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.592055000 seconds]
+    Data (48 bytes)
+
+0000  c8 9c 02 00 00 00 00 00 10 11 12 13 14 15 16 17   ................
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: c89c020000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    185 16.117900      173.194.46.88         192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0c89, seq=2/512, ttl=128 (request in 184)
+
+Frame 185: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 173.194.46.88, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0x2a8c [correct]
+    Identifier (BE): 3209 (0x0c89)
+    Identifier (LE): 35084 (0x890c)
+    Sequence number (BE): 2 (0x0002)
+    Sequence number (LE): 512 (0x0200)
+    [Request frame: 184]
+    [Response time: 46.329 ms]
+    Timestamp from icmp data: May 13, 2014 03:49:34.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.638384000 seconds]
+    Data (48 bytes)
+
+0000  c8 9c 02 00 00 00 00 00 10 11 12 13 14 15 16 17   ................
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: c89c020000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    188 17.085356      192.168.191.129       173.194.46.88         ICMP     98     Echo (ping) request  id=0x0c89, seq=3/768, ttl=64 (reply in 189)
+
+Frame 188: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 173.194.46.88
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x3155 [correct]
+    Identifier (BE): 3209 (0x0c89)
+    Identifier (LE): 35084 (0x890c)
+    Sequence number (BE): 3 (0x0003)
+    Sequence number (LE): 768 (0x0300)
+    [Response frame: 189]
+    Timestamp from icmp data: May 13, 2014 03:49:35.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.605840000 seconds]
+    Data (48 bytes)
+
+0000  b8 d2 02 00 00 00 00 00 10 11 12 13 14 15 16 17   ................
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: b8d2020000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    189 17.118117      173.194.46.88         192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0c89, seq=3/768, ttl=128 (request in 188)
+
+Frame 189: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 173.194.46.88, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0x3955 [correct]
+    Identifier (BE): 3209 (0x0c89)
+    Identifier (LE): 35084 (0x890c)
+    Sequence number (BE): 3 (0x0003)
+    Sequence number (LE): 768 (0x0300)
+    [Request frame: 188]
+    [Response time: 32.761 ms]
+    Timestamp from icmp data: May 13, 2014 03:49:35.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.638601000 seconds]
+    Data (48 bytes)
+
+0000  b8 d2 02 00 00 00 00 00 10 11 12 13 14 15 16 17   ................
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: b8d2020000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    192 18.099493      192.168.191.129       173.194.46.88         ICMP     98     Echo (ping) request  id=0x0c89, seq=4/1024, ttl=64 (reply in 193)
+
+Frame 192: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 173.194.46.88
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x161d [correct]
+    Identifier (BE): 3209 (0x0c89)
+    Identifier (LE): 35084 (0x890c)
+    Sequence number (BE): 4 (0x0004)
+    Sequence number (LE): 1024 (0x0400)
+    [Response frame: 193]
+    Timestamp from icmp data: May 13, 2014 03:49:36.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.619977000 seconds]
+    Data (48 bytes)
+
+0000  d2 09 03 00 00 00 00 00 10 11 12 13 14 15 16 17   ................
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: d209030000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    193 18.131346      173.194.46.88         192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0c89, seq=4/1024, ttl=128 (request in 192)
+
+Frame 193: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 173.194.46.88, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0x1e1d [correct]
+    Identifier (BE): 3209 (0x0c89)
+    Identifier (LE): 35084 (0x890c)
+    Sequence number (BE): 4 (0x0004)
+    Sequence number (LE): 1024 (0x0400)
+    [Request frame: 192]
+    [Response time: 31.853 ms]
+    Timestamp from icmp data: May 13, 2014 03:49:36.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.651830000 seconds]
+    Data (48 bytes)
+
+0000  d2 09 03 00 00 00 00 00 10 11 12 13 14 15 16 17   ................
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: d209030000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    197 18.567507      192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 197: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 54112 (54112), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0x5f3f
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            6379426849484e6c.192.168.191.129: type A, class IN
+                Name: 6379426849484e6c.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    198 19.113218      192.168.191.129       173.194.46.88         ICMP     98     Echo (ping) request  id=0x0c89, seq=5/1280, ttl=64 (reply in 199)
+
+Frame 198: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 173.194.46.88
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0xe3e5 [correct]
+    Identifier (BE): 3209 (0x0c89)
+    Identifier (LE): 35084 (0x890c)
+    Sequence number (BE): 5 (0x0005)
+    Sequence number (LE): 1280 (0x0500)
+    [Response frame: 199]
+    Timestamp from icmp data: May 13, 2014 03:49:37.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.633702000 seconds]
+    Data (48 bytes)
+
+0000  03 40 03 00 00 00 00 00 10 11 12 13 14 15 16 17   .@..............
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: 0340030000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    199 19.144818      173.194.46.88         192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0c89, seq=5/1280, ttl=128 (request in 198)
+
+Frame 199: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 173.194.46.88, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0xebe5 [correct]
+    Identifier (BE): 3209 (0x0c89)
+    Identifier (LE): 35084 (0x890c)
+    Sequence number (BE): 5 (0x0005)
+    Sequence number (LE): 1280 (0x0500)
+    [Request frame: 198]
+    [Response time: 31.600 ms]
+    Timestamp from icmp data: May 13, 2014 03:49:37.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.665302000 seconds]
+    Data (48 bytes)
+
+0000  03 40 03 00 00 00 00 00 10 11 12 13 14 15 16 17   .@..............
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: 0340030000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    204 23.603912      192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 204: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 40403 (40403), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0xfe53
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            59334a6c64434230.192.168.191.129: type A, class IN
+                Name: 59334a6c64434230.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    213 28.615128      192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 213: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 40403 (40403), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0xfe53
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            59334a6c64434230.192.168.191.129: type A, class IN
+                Name: 59334a6c64434230.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    218 31.403520      192.168.191.129       208.113.233.166       ICMP     98     Echo (ping) request  id=0x0c8b, seq=1/256, ttl=64 (reply in 219)
+
+Frame 218: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 208.113.233.166
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0xd97a [correct]
+    Identifier (BE): 3211 (0x0c8b)
+    Identifier (LE): 35596 (0x8b0c)
+    Sequence number (BE): 1 (0x0001)
+    Sequence number (LE): 256 (0x0100)
+    [Response frame: 219]
+    Timestamp from icmp data: May 13, 2014 03:49:49.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.924004000 seconds]
+    Data (48 bytes)
+
+0000  fd ac 07 00 00 00 00 00 10 11 12 13 14 15 16 17   ................
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: fdac070000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    219 31.496313      208.113.233.166       192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0c8b, seq=1/256, ttl=128 (request in 218)
+
+Frame 219: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 208.113.233.166, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0xe17a [correct]
+    Identifier (BE): 3211 (0x0c8b)
+    Identifier (LE): 35596 (0x8b0c)
+    Sequence number (BE): 1 (0x0001)
+    Sequence number (LE): 256 (0x0100)
+    [Request frame: 218]
+    [Response time: 92.793 ms]
+    Data (56 bytes)
+
+0000  dd 25 71 53 00 00 00 00 fd ac 07 00 00 00 00 00   .%qS............
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: dd25715300000000fdac0700000000001011121314151617...
+        [Length: 56]
+
+No.     Time           Source                Destination           Protocol Length Info
+    222 32.435538      192.168.191.129       208.113.233.166       ICMP     98     Echo (ping) request  id=0x0c8b, seq=2/512, ttl=64 (reply in 223)
+
+Frame 222: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 208.113.233.166
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x56fc [correct]
+    Identifier (BE): 3211 (0x0c8b)
+    Identifier (LE): 35596 (0x8b0c)
+    Sequence number (BE): 2 (0x0002)
+    Sequence number (LE): 512 (0x0200)
+    [Response frame: 223]
+    Timestamp from icmp data: May 13, 2014 03:49:50.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.956022000 seconds]
+    Data (48 bytes)
+
+0000  7e 2a 08 00 00 00 00 00 10 11 12 13 14 15 16 17   ~*..............
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: 7e2a080000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    223 32.527401      208.113.233.166       192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0c8b, seq=2/512, ttl=128 (request in 222)
+
+Frame 223: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 208.113.233.166, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0x5efc [correct]
+    Identifier (BE): 3211 (0x0c8b)
+    Identifier (LE): 35596 (0x8b0c)
+    Sequence number (BE): 2 (0x0002)
+    Sequence number (LE): 512 (0x0200)
+    [Request frame: 222]
+    [Response time: 91.863 ms]
+    Data (56 bytes)
+
+0000  de 25 71 53 00 00 00 00 7e 2a 08 00 00 00 00 00   .%qS....~*......
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: de257153000000007e2a0800000000001011121314151617...
+        [Length: 56]
+
+No.     Time           Source                Destination           Protocol Length Info
+    226 33.470833      192.168.191.129       208.113.233.166       ICMP     98     Echo (ping) request  id=0x0c8b, seq=3/768, ttl=64 (reply in 227)
+
+Frame 226: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 208.113.233.166
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x6871 [correct]
+    Identifier (BE): 3211 (0x0c8b)
+    Identifier (LE): 35596 (0x8b0c)
+    Sequence number (BE): 3 (0x0003)
+    Sequence number (LE): 768 (0x0300)
+    [Response frame: 227]
+    Timestamp from icmp data: May 13, 2014 03:49:51.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.991317000 seconds]
+    Data (48 bytes)
+
+0000  6b b4 08 00 00 00 00 00 10 11 12 13 14 15 16 17   k...............
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: 6bb4080000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    227 33.562527      208.113.233.166       192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0c8b, seq=3/768, ttl=128 (request in 226)
+
+Frame 227: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 208.113.233.166, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0x7071 [correct]
+    Identifier (BE): 3211 (0x0c8b)
+    Identifier (LE): 35596 (0x8b0c)
+    Sequence number (BE): 3 (0x0003)
+    Sequence number (LE): 768 (0x0300)
+    [Request frame: 226]
+    [Response time: 91.694 ms]
+    Data (56 bytes)
+
+0000  df 25 71 53 00 00 00 00 6b b4 08 00 00 00 00 00   .%qS....k.......
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: df257153000000006bb40800000000001011121314151617...
+        [Length: 56]
+
+No.     Time           Source                Destination           Protocol Length Info
+    232 33.662191      192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 232: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 50151 (50151), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0x25f0
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            636d467563323170.192.168.191.129: type A, class IN
+                Name: 636d467563323170.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    234 34.510164      192.168.191.129       208.113.233.166       ICMP     98     Echo (ping) request  id=0x0c8b, seq=4/1024, ttl=64 (reply in 235)
+
+Frame 234: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 208.113.233.166
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x24d6 [correct]
+    Identifier (BE): 3211 (0x0c8b)
+    Identifier (LE): 35596 (0x8b0c)
+    Sequence number (BE): 4 (0x0004)
+    Sequence number (LE): 1024 (0x0400)
+    [Response frame: 235]
+    Data (56 bytes)
+
+0000  e0 25 71 53 00 00 00 00 ad 4e 09 00 00 00 00 00   .%qS.....N......
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: e025715300000000ad4e0900000000001011121314151617...
+        [Length: 56]
+
+No.     Time           Source                Destination           Protocol Length Info
+    235 34.601689      208.113.233.166       192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0c8b, seq=4/1024, ttl=128 (request in 234)
+
+Frame 235: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 208.113.233.166, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0x2cd6 [correct]
+    Identifier (BE): 3211 (0x0c8b)
+    Identifier (LE): 35596 (0x8b0c)
+    Sequence number (BE): 4 (0x0004)
+    Sequence number (LE): 1024 (0x0400)
+    [Request frame: 234]
+    [Response time: 91.525 ms]
+    Data (56 bytes)
+
+0000  e0 25 71 53 00 00 00 00 ad 4e 09 00 00 00 00 00   .%qS.....N......
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: e025715300000000ad4e0900000000001011121314151617...
+        [Length: 56]
+
+No.     Time           Source                Destination           Protocol Length Info
+    238 35.524284      192.168.191.129       208.113.233.166       ICMP     98     Echo (ping) request  id=0x0c8b, seq=5/1280, ttl=64 (reply in 239)
+
+Frame 238: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 208.113.233.166
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x1d9e [correct]
+    Identifier (BE): 3211 (0x0c8b)
+    Identifier (LE): 35596 (0x8b0c)
+    Sequence number (BE): 5 (0x0005)
+    Sequence number (LE): 1280 (0x0500)
+    [Response frame: 239]
+    Data (56 bytes)
+
+0000  e1 25 71 53 00 00 00 00 b3 85 09 00 00 00 00 00   .%qS............
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: e125715300000000b3850900000000001011121314151617...
+        [Length: 56]
+
+No.     Time           Source                Destination           Protocol Length Info
+    239 35.619865      208.113.233.166       192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0c8b, seq=5/1280, ttl=128 (request in 238)
+
+Frame 239: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 208.113.233.166, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0x259e [correct]
+    Identifier (BE): 3211 (0x0c8b)
+    Identifier (LE): 35596 (0x8b0c)
+    Sequence number (BE): 5 (0x0005)
+    Sequence number (LE): 1280 (0x0500)
+    [Request frame: 238]
+    [Response time: 95.581 ms]
+    Data (56 bytes)
+
+0000  e1 25 71 53 00 00 00 00 b3 85 09 00 00 00 00 00   .%qS............
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: e125715300000000b3850900000000001011121314151617...
+        [Length: 56]
+
+No.     Time           Source                Destination           Protocol Length Info
+    242 36.538565      192.168.191.129       208.113.233.166       ICMP     98     Echo (ping) request  id=0x0c8b, seq=6/1536, ttl=64 (reply in 243)
+
+Frame 242: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 208.113.233.166
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x5165 [correct]
+    Identifier (BE): 3211 (0x0c8b)
+    Identifier (LE): 35596 (0x8b0c)
+    Sequence number (BE): 6 (0x0006)
+    Sequence number (LE): 1536 (0x0600)
+    [Response frame: 243]
+    Data (56 bytes)
+
+0000  e2 25 71 53 00 00 00 00 7e bd 09 00 00 00 00 00   .%qS....~.......
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: e2257153000000007ebd0900000000001011121314151617...
+        [Length: 56]
+
+No.     Time           Source                Destination           Protocol Length Info
+    243 36.629725      208.113.233.166       192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0c8b, seq=6/1536, ttl=128 (request in 242)
+
+Frame 243: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 208.113.233.166, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0x5965 [correct]
+    Identifier (BE): 3211 (0x0c8b)
+    Identifier (LE): 35596 (0x8b0c)
+    Sequence number (BE): 6 (0x0006)
+    Sequence number (LE): 1536 (0x0600)
+    [Request frame: 242]
+    [Response time: 91.160 ms]
+    Data (56 bytes)
+
+0000  e2 25 71 53 00 00 00 00 7e bd 09 00 00 00 00 00   .%qS....~.......
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: e2257153000000007ebd0900000000001011121314151617...
+        [Length: 56]
+
+No.     Time           Source                Destination           Protocol Length Info
+    246 37.567849      192.168.191.129       208.113.233.166       ICMP     98     Echo (ping) request  id=0x0c8b, seq=7/1792, ttl=64 (reply in 247)
+
+Frame 246: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 208.113.233.166
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0xd7f1 [correct]
+    Identifier (BE): 3211 (0x0c8b)
+    Identifier (LE): 35596 (0x8b0c)
+    Sequence number (BE): 7 (0x0007)
+    Sequence number (LE): 1792 (0x0700)
+    [Response frame: 247]
+    Data (56 bytes)
+
+0000  e3 25 71 53 00 00 00 00 f6 2f 0a 00 00 00 00 00   .%qS...../......
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: e325715300000000f62f0a00000000001011121314151617...
+        [Length: 56]
+
+No.     Time           Source                Destination           Protocol Length Info
+    247 37.660134      208.113.233.166       192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0c8b, seq=7/1792, ttl=128 (request in 246)
+
+Frame 247: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 208.113.233.166, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0xdff1 [correct]
+    Identifier (BE): 3211 (0x0c8b)
+    Identifier (LE): 35596 (0x8b0c)
+    Sequence number (BE): 7 (0x0007)
+    Sequence number (LE): 1792 (0x0700)
+    [Request frame: 246]
+    [Response time: 92.285 ms]
+    Data (56 bytes)
+
+0000  e3 25 71 53 00 00 00 00 f6 2f 0a 00 00 00 00 00   .%qS...../......
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: e325715300000000f62f0a00000000001011121314151617...
+        [Length: 56]
+
+No.     Time           Source                Destination           Protocol Length Info
+    250 38.581865      192.168.191.129       208.113.233.166       ICMP     98     Echo (ping) request  id=0x0c8b, seq=8/2048, ttl=64 (reply in 252)
+
+Frame 250: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 208.113.233.166
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x2cba [correct]
+    Identifier (BE): 3211 (0x0c8b)
+    Identifier (LE): 35596 (0x8b0c)
+    Sequence number (BE): 8 (0x0008)
+    Sequence number (LE): 2048 (0x0800)
+    [Response frame: 252]
+    Data (56 bytes)
+
+0000  e4 25 71 53 00 00 00 00 a0 66 0a 00 00 00 00 00   .%qS.....f......
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: e425715300000000a0660a00000000001011121314151617...
+        [Length: 56]
+
+No.     Time           Source                Destination           Protocol Length Info
+    252 38.691014      208.113.233.166       192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0c8b, seq=8/2048, ttl=128 (request in 250)
+
+Frame 252: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 208.113.233.166, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0x34ba [correct]
+    Identifier (BE): 3211 (0x0c8b)
+    Identifier (LE): 35596 (0x8b0c)
+    Sequence number (BE): 8 (0x0008)
+    Sequence number (LE): 2048 (0x0800)
+    [Request frame: 250]
+    [Response time: 109.149 ms]
+    Data (56 bytes)
+
+0000  e4 25 71 53 00 00 00 00 a0 66 0a 00 00 00 00 00   .%qS.....f......
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: e425715300000000a0660a00000000001011121314151617...
+        [Length: 56]
+
+No.     Time           Source                Destination           Protocol Length Info
+    256 38.691648      192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 256: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 50151 (50151), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0x25f0
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            636d467563323170.192.168.191.129: type A, class IN
+                Name: 636d467563323170.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    258 39.596496      192.168.191.129       208.113.233.166       ICMP     98     Echo (ping) request  id=0x0c8b, seq=9/2304, ttl=64 (reply in 259)
+
+Frame 258: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 208.113.233.166
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x6d80 [correct]
+    Identifier (BE): 3211 (0x0c8b)
+    Identifier (LE): 35596 (0x8b0c)
+    Sequence number (BE): 9 (0x0009)
+    Sequence number (LE): 2304 (0x0900)
+    [Response frame: 259]
+    Data (56 bytes)
+
+0000  e5 25 71 53 00 00 00 00 5e 9f 0a 00 00 00 00 00   .%qS....^.......
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: e5257153000000005e9f0a00000000001011121314151617...
+        [Length: 56]
+
+No.     Time           Source                Destination           Protocol Length Info
+    259 39.688772      208.113.233.166       192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0c8b, seq=9/2304, ttl=128 (request in 258)
+
+Frame 259: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 208.113.233.166, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0x7580 [correct]
+    Identifier (BE): 3211 (0x0c8b)
+    Identifier (LE): 35596 (0x8b0c)
+    Sequence number (BE): 9 (0x0009)
+    Sequence number (LE): 2304 (0x0900)
+    [Request frame: 258]
+    [Response time: 92.276 ms]
+    Data (56 bytes)
+
+0000  e5 25 71 53 00 00 00 00 5e 9f 0a 00 00 00 00 00   .%qS....^.......
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: e5257153000000005e9f0a00000000001011121314151617...
+        [Length: 56]
+
+No.     Time           Source                Destination           Protocol Length Info
+    264 43.694124      192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 264: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 56779 (56779), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0xd86c
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            6448526c5a434230.192.168.191.129: type A, class IN
+                Name: 6448526c5a434230.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    269 48.737380      192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 269: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 56779 (56779), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0xd86c
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            6448526c5a434230.192.168.191.129: type A, class IN
+                Name: 6448526c5a434230.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    273 53.739982      192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 273: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 56602 (56602), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0x7936
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            61484a766457646f.192.168.191.129: type A, class IN
+                Name: 61484a766457646f.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    279 58.768099      192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 279: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 56602 (56602), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0x7936
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            61484a766457646f.192.168.191.129: type A, class IN
+                Name: 61484a766457646f.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    285 63.806763      192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 285: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 59304 (59304), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0x4ebb
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            4947527563794278.192.168.191.129: type A, class IN
+                Name: 4947527563794278.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    290 68.814813      192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 290: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 59304 (59304), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0x4ebb
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            4947527563794278.192.168.191.129: type A, class IN
+                Name: 4947527563794278.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    297 73.849365      192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 297: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 59978 (59978), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0x269c
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            6457567965534136.192.168.191.129: type A, class IN
+                Name: 6457567965534136.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    300 78.893181      192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 300: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 59978 (59978), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0x269c
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            6457567965534136.192.168.191.129: type A, class IN
+                Name: 6457567965534136.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    318 83.928945      192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 318: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 50671 (50671), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0xfba4
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            4b53424754454648.192.168.191.129: type A, class IN
+                Name: 4b53424754454648.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    324 88.954905      192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 324: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 50671 (50671), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0xfba4
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            4b53424754454648.192.168.191.129: type A, class IN
+                Name: 4b53424754454648.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    362 93.975003      192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 362: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 54624 (54624), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0x2964
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            4c555a554e44646a.192.168.191.129: type A, class IN
+                Name: 4c555a554e44646a.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    369 99.015500      192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 369: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 54624 (54624), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0x2964
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            4c555a554e44646a.192.168.191.129: type A, class IN
+                Name: 4c555a554e44646a.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    410 104.018238     192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 410: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 45072 (45072), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0x5780
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            545667794e6e4258.192.168.191.129: type A, class IN
+                Name: 545667794e6e4258.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    417 109.061738     192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 417: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 45072 (45072), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0x5780
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            545667794e6e4258.192.168.191.129: type A, class IN
+                Name: 545667794e6e4258.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    422 114.100782     192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 422: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 45318 (45318), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0x3ad3
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            65555a5453545a53.192.168.191.129: type A, class IN
+                Name: 65555a5453545a53.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    428 119.140915     192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 428: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 45318 (45318), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0x3ad3
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            65555a5453545a53.192.168.191.129: type A, class IN
+                Name: 65555a5453545a53.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    431 124.156699     192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 431: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 54162 (54162), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0xc6f3
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            5546646855334931.192.168.191.129: type A, class IN
+                Name: 5546646855334931.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    534 129.158984     192.168.191.129       192.168.191.128       ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 534: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd9b [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 54162 (54162), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0xc6f3
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            5546646855334931.192.168.191.129: type A, class IN
+                Name: 5546646855334931.192.168.191.129
+                [Name Length: 32]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    538 134.190954     192.168.191.129       192.168.191.128       ICMP     114    Destination unreachable (Port unreachable)
+
+Frame 538: 114 bytes on wire (912 bits), 114 bytes captured (912 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd95 [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 54989 (54989), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0x8cca
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            57564a330a.192.168.191.129: type A, class IN
+                Name: 57564a330a.192.168.191.129
+                [Name Length: 26]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    541 134.346407     192.168.191.129       199.181.132.250       ICMP     98     Echo (ping) request  id=0x0c99, seq=1/256, ttl=64 (reply in 543)
+
+Frame 541: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 199.181.132.250
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x6e4a [correct]
+    Identifier (BE): 3225 (0x0c99)
+    Identifier (LE): 39180 (0x990c)
+    Sequence number (BE): 1 (0x0001)
+    Sequence number (LE): 256 (0x0100)
+    [Response frame: 543]
+    Timestamp from icmp data: May 13, 2014 03:51:32.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.866891000 seconds]
+    Data (48 bytes)
+
+0000  02 cf 06 00 00 00 00 00 10 11 12 13 14 15 16 17   ................
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: 02cf060000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    543 134.420793     199.181.132.250       192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0c99, seq=1/256, ttl=128 (request in 541)
+
+Frame 543: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 199.181.132.250, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0x764a [correct]
+    Identifier (BE): 3225 (0x0c99)
+    Identifier (LE): 39180 (0x990c)
+    Sequence number (BE): 1 (0x0001)
+    Sequence number (LE): 256 (0x0100)
+    [Request frame: 541]
+    [Response time: 74.386 ms]
+    Timestamp from icmp data: May 13, 2014 03:51:32.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.941277000 seconds]
+    Data (48 bytes)
+
+0000  02 cf 06 00 00 00 00 00 10 11 12 13 14 15 16 17   ................
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: 02cf060000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    619 135.348651     192.168.191.129       199.181.132.250       ICMP     98     Echo (ping) request  id=0x0c99, seq=2/512, ttl=64 (reply in 620)
+
+Frame 619: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 199.181.132.250
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0xdc41 [correct]
+    Identifier (BE): 3225 (0x0c99)
+    Identifier (LE): 39180 (0x990c)
+    Sequence number (BE): 2 (0x0002)
+    Sequence number (LE): 512 (0x0200)
+    [Response frame: 620]
+    Timestamp from icmp data: May 13, 2014 03:51:33.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.869135000 seconds]
+    Data (48 bytes)
+
+0000  93 d6 06 00 00 00 00 00 10 11 12 13 14 15 16 17   ................
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: 93d6060000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    620 135.421627     199.181.132.250       192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0c99, seq=2/512, ttl=128 (request in 619)
+
+Frame 620: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 199.181.132.250, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0xe441 [correct]
+    Identifier (BE): 3225 (0x0c99)
+    Identifier (LE): 39180 (0x990c)
+    Sequence number (BE): 2 (0x0002)
+    Sequence number (LE): 512 (0x0200)
+    [Request frame: 619]
+    [Response time: 72.976 ms]
+    Timestamp from icmp data: May 13, 2014 03:51:33.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.942111000 seconds]
+    Data (48 bytes)
+
+0000  93 d6 06 00 00 00 00 00 10 11 12 13 14 15 16 17   ................
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: 93d6060000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    646 136.351109     192.168.191.129       199.181.132.250       ICMP     98     Echo (ping) request  id=0x0c99, seq=3/768, ttl=64 (reply in 647)
+
+Frame 646: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 199.181.132.250
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x1737 [correct]
+    Identifier (BE): 3225 (0x0c99)
+    Identifier (LE): 39180 (0x990c)
+    Sequence number (BE): 3 (0x0003)
+    Sequence number (LE): 768 (0x0300)
+    [Response frame: 647]
+    Timestamp from icmp data: May 13, 2014 03:51:34.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.871593000 seconds]
+    Data (48 bytes)
+
+0000  57 e0 06 00 00 00 00 00 10 11 12 13 14 15 16 17   W...............
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: 57e0060000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    647 136.426164     199.181.132.250       192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0c99, seq=3/768, ttl=128 (request in 646)
+
+Frame 647: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 199.181.132.250, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0x1f37 [correct]
+    Identifier (BE): 3225 (0x0c99)
+    Identifier (LE): 39180 (0x990c)
+    Sequence number (BE): 3 (0x0003)
+    Sequence number (LE): 768 (0x0300)
+    [Request frame: 646]
+    [Response time: 75.055 ms]
+    Timestamp from icmp data: May 13, 2014 03:51:34.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.946648000 seconds]
+    Data (48 bytes)
+
+0000  57 e0 06 00 00 00 00 00 10 11 12 13 14 15 16 17   W...............
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: 57e0060000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    673 137.390734     192.168.191.129       199.181.132.250       ICMP     98     Echo (ping) request  id=0x0c99, seq=4/1024, ttl=64 (reply in 674)
+
+Frame 673: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 199.181.132.250
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x5a9a [correct]
+    Identifier (BE): 3225 (0x0c99)
+    Identifier (LE): 39180 (0x990c)
+    Sequence number (BE): 4 (0x0004)
+    Sequence number (LE): 1024 (0x0400)
+    [Response frame: 674]
+    Timestamp from icmp data: May 13, 2014 03:51:35.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.911218000 seconds]
+    Data (48 bytes)
+
+0000  12 7c 07 00 00 00 00 00 10 11 12 13 14 15 16 17   .|..............
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: 127c070000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    674 137.463954     199.181.132.250       192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0c99, seq=4/1024, ttl=128 (request in 673)
+
+Frame 674: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 199.181.132.250, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0x629a [correct]
+    Identifier (BE): 3225 (0x0c99)
+    Identifier (LE): 39180 (0x990c)
+    Sequence number (BE): 4 (0x0004)
+    Sequence number (LE): 1024 (0x0400)
+    [Request frame: 673]
+    [Response time: 73.220 ms]
+    Timestamp from icmp data: May 13, 2014 03:51:35.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.984438000 seconds]
+    Data (48 bytes)
+
+0000  12 7c 07 00 00 00 00 00 10 11 12 13 14 15 16 17   .|..............
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: 127c070000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    700 138.404857     192.168.191.129       199.181.132.250       ICMP     98     Echo (ping) request  id=0x0c99, seq=5/1280, ttl=64 (reply in 701)
+
+Frame 700: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 199.181.132.250
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x9c62 [correct]
+    Identifier (BE): 3225 (0x0c99)
+    Identifier (LE): 39180 (0x990c)
+    Sequence number (BE): 5 (0x0005)
+    Sequence number (LE): 1280 (0x0500)
+    [Response frame: 701]
+    Timestamp from icmp data: May 13, 2014 03:51:36.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.925341000 seconds]
+    Data (48 bytes)
+
+0000  cf b2 07 00 00 00 00 00 10 11 12 13 14 15 16 17   ................
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: cfb2070000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    701 138.478273     199.181.132.250       192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0c99, seq=5/1280, ttl=128 (request in 700)
+
+Frame 701: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 199.181.132.250, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0xa462 [correct]
+    Identifier (BE): 3225 (0x0c99)
+    Identifier (LE): 39180 (0x990c)
+    Sequence number (BE): 5 (0x0005)
+    Sequence number (LE): 1280 (0x0500)
+    [Request frame: 700]
+    [Response time: 73.416 ms]
+    Timestamp from icmp data: May 13, 2014 03:51:36.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.998757000 seconds]
+    Data (48 bytes)
+
+0000  cf b2 07 00 00 00 00 00 10 11 12 13 14 15 16 17   ................
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: cfb2070000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    728 139.216196     192.168.191.129       192.168.191.128       ICMP     114    Destination unreachable (Port unreachable)
+
+Frame 728: 114 bytes on wire (912 bits), 114 bytes captured (912 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_19:04:a2 (00:0c:29:19:04:a2)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 192.168.191.128
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0xfd95 [correct]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.191.128, Dst: 192.168.191.129
+    User Datagram Protocol, Src Port: 54989 (54989), Dst Port: 53 (53)
+    Domain Name System (query)
+        Transaction ID: 0x8cca
+        Flags: 0x0100 Standard query
+        Questions: 1
+        Answer RRs: 0
+        Authority RRs: 0
+        Additional RRs: 0
+        Queries
+            57564a330a.192.168.191.129: type A, class IN
+                Name: 57564a330a.192.168.191.129
+                [Name Length: 26]
+                [Label Count: 5]
+                Type: A (Host Address) (1)
+                Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    729 139.434379     192.168.191.129       199.181.132.250       ICMP     98     Echo (ping) request  id=0x0c99, seq=6/1536, ttl=64 (reply in 730)
+
+Frame 729: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 199.181.132.250
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x2aee [correct]
+    Identifier (BE): 3225 (0x0c99)
+    Identifier (LE): 39180 (0x990c)
+    Sequence number (BE): 6 (0x0006)
+    Sequence number (LE): 1536 (0x0600)
+    [Response frame: 730]
+    Timestamp from icmp data: May 13, 2014 03:51:37.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.954863000 seconds]
+    Data (48 bytes)
+
+0000  3f 26 08 00 00 00 00 00 10 11 12 13 14 15 16 17   ?&..............
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: 3f26080000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    730 139.508193     199.181.132.250       192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0c99, seq=6/1536, ttl=128 (request in 729)
+
+Frame 730: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 199.181.132.250, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0x32ee [correct]
+    Identifier (BE): 3225 (0x0c99)
+    Identifier (LE): 39180 (0x990c)
+    Sequence number (BE): 6 (0x0006)
+    Sequence number (LE): 1536 (0x0600)
+    [Request frame: 729]
+    [Response time: 73.814 ms]
+    Data (56 bytes)
+
+0000  49 26 71 53 00 00 00 00 3f 26 08 00 00 00 00 00   I&qS....?&......
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: 49267153000000003f260800000000001011121314151617...
+        [Length: 56]
+
+No.     Time           Source                Destination           Protocol Length Info
+    756 140.448661     192.168.191.129       199.181.132.250       ICMP     98     Echo (ping) request  id=0x0c99, seq=7/1792, ttl=64 (reply in 757)
+
+Frame 756: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 199.181.132.250
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x79b5 [correct]
+    Identifier (BE): 3225 (0x0c99)
+    Identifier (LE): 39180 (0x990c)
+    Sequence number (BE): 7 (0x0007)
+    Sequence number (LE): 1792 (0x0700)
+    [Response frame: 757]
+    Timestamp from icmp data: May 13, 2014 03:51:38.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.969145000 seconds]
+    Data (48 bytes)
+
+0000  ef 5d 08 00 00 00 00 00 10 11 12 13 14 15 16 17   .]..............
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: ef5d080000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    757 140.522235     199.181.132.250       192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0c99, seq=7/1792, ttl=128 (request in 756)
+
+Frame 757: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 199.181.132.250, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0x81b5 [correct]
+    Identifier (BE): 3225 (0x0c99)
+    Identifier (LE): 39180 (0x990c)
+    Sequence number (BE): 7 (0x0007)
+    Sequence number (LE): 1792 (0x0700)
+    [Request frame: 756]
+    [Response time: 73.574 ms]
+    Data (56 bytes)
+
+0000  4a 26 71 53 00 00 00 00 ef 5d 08 00 00 00 00 00   J&qS.....]......
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: 4a26715300000000ef5d0800000000001011121314151617...
+        [Length: 56]
+
+No.     Time           Source                Destination           Protocol Length Info
+    764 143.235701     192.168.191.129       157.166.226.25        ICMP     98     Echo (ping) request  id=0x0ca1, seq=1/256, ttl=64 (reply in 765)
+
+Frame 764: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 157.166.226.25
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0xeaf3 [correct]
+    Identifier (BE): 3233 (0x0ca1)
+    Identifier (LE): 41228 (0xa10c)
+    Sequence number (BE): 1 (0x0001)
+    Sequence number (LE): 256 (0x0100)
+    [Response frame: 765]
+    Timestamp from icmp data: May 13, 2014 03:51:41.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.756185000 seconds]
+    Data (48 bytes)
+
+0000  7e 1d 05 00 00 00 00 00 10 11 12 13 14 15 16 17   ~...............
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: 7e1d050000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    765 143.277355     157.166.226.25        192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0ca1, seq=1/256, ttl=128 (request in 764)
+
+Frame 765: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 157.166.226.25, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0xf2f3 [correct]
+    Identifier (BE): 3233 (0x0ca1)
+    Identifier (LE): 41228 (0xa10c)
+    Sequence number (BE): 1 (0x0001)
+    Sequence number (LE): 256 (0x0100)
+    [Request frame: 764]
+    [Response time: 41.654 ms]
+    Timestamp from icmp data: May 13, 2014 03:51:41.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.797839000 seconds]
+    Data (48 bytes)
+
+0000  7e 1d 05 00 00 00 00 00 10 11 12 13 14 15 16 17   ~...............
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: 7e1d050000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    768 144.239130     192.168.191.129       157.166.226.25        ICMP     98     Echo (ping) request  id=0x0ca1, seq=2/512, ttl=64 (reply in 772)
+
+Frame 768: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 157.166.226.25
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0xa0e4 [correct]
+    Identifier (BE): 3233 (0x0ca1)
+    Identifier (LE): 41228 (0xa10c)
+    Sequence number (BE): 2 (0x0002)
+    Sequence number (LE): 512 (0x0200)
+    [Response frame: 772]
+    Timestamp from icmp data: May 13, 2014 03:51:42.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.759614000 seconds]
+    Data (48 bytes)
+
+0000  c7 2b 05 00 00 00 00 00 10 11 12 13 14 15 16 17   .+..............
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: c72b050000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    772 144.280286     157.166.226.25        192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0ca1, seq=2/512, ttl=128 (request in 768)
+
+Frame 772: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 157.166.226.25, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0xa8e4 [correct]
+    Identifier (BE): 3233 (0x0ca1)
+    Identifier (LE): 41228 (0xa10c)
+    Sequence number (BE): 2 (0x0002)
+    Sequence number (LE): 512 (0x0200)
+    [Request frame: 768]
+    [Response time: 41.156 ms]
+    Timestamp from icmp data: May 13, 2014 03:51:42.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.800770000 seconds]
+    Data (48 bytes)
+
+0000  c7 2b 05 00 00 00 00 00 10 11 12 13 14 15 16 17   .+..............
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: c72b050000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    775 145.253382     192.168.191.129       157.166.226.25        ICMP     98     Echo (ping) request  id=0x0ca1, seq=3/768, ttl=64 (reply in 776)
+
+Frame 775: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_8a:52:90 (00:0c:29:8a:52:90), Dst: Vmware_fc:ba:91 (00:50:56:fc:ba:91)
+Internet Protocol Version 4, Src: 192.168.191.129, Dst: 157.166.226.25
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0xfeac [correct]
+    Identifier (BE): 3233 (0x0ca1)
+    Identifier (LE): 41228 (0xa10c)
+    Sequence number (BE): 3 (0x0003)
+    Sequence number (LE): 768 (0x0300)
+    [Response frame: 776]
+    Timestamp from icmp data: May 13, 2014 03:51:43.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.773866000 seconds]
+    Data (48 bytes)
+
+0000  68 62 05 00 00 00 00 00 10 11 12 13 14 15 16 17   hb..............
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: 6862050000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
+
+No.     Time           Source                Destination           Protocol Length Info
+    776 145.295065     157.166.226.25        192.168.191.129       ICMP     98     Echo (ping) reply    id=0x0ca1, seq=3/768, ttl=128 (request in 775)
+
+Frame 776: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Vmware_fc:ba:91 (00:50:56:fc:ba:91), Dst: Vmware_8a:52:90 (00:0c:29:8a:52:90)
+Internet Protocol Version 4, Src: 157.166.226.25, Dst: 192.168.191.129
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0x06ad [correct]
+    Identifier (BE): 3233 (0x0ca1)
+    Identifier (LE): 41228 (0xa10c)
+    Sequence number (BE): 3 (0x0003)
+    Sequence number (LE): 768 (0x0300)
+    [Request frame: 775]
+    [Response time: 41.683 ms]
+    Timestamp from icmp data: May 13, 2014 03:51:43.000000000 台北標準時間
+    [Timestamp from icmp data (relative): 0.815549000 seconds]
+    Data (48 bytes)
+
+0000  68 62 05 00 00 00 00 00 10 11 12 13 14 15 16 17   hb..............
+0010  18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27   ........ !"#$%&'
+0020  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+        Data: 6862050000000000101112131415161718191a1b1c1d1e1f...
+        [Length: 48]
