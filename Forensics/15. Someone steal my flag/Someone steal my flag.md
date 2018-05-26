@@ -1,10 +1,16 @@
-# **Someone steal my flag!**
+# **Someone steal my flag**
 
 ![](https://i.imgur.com/rk05CGi.png)
+
+There's some packet show that their **Destination unreachable**.
+
+The **Destination Name** got some secret data before it.
 
 ![](https://i.imgur.com/67cU9Ha.png)
 
 ![](https://i.imgur.com/VJrf6bN.png)
+
+Let's extract this out to make it more eazier to implement a script to compute the **Flag**.
 
 ```python
 #!/usr/bin/env python3
@@ -31,6 +37,8 @@ if __name__ == '__main__':
 ```
 
 ![](https://i.imgur.com/3sU2ZCp.png)
+
+It seems the packet are double, let's drop the same one and compute again.
 
 ```python
 #!/usr/bin/env python3
@@ -61,3 +69,5 @@ if __name__ == '__main__':
 ```
 
 ![](https://i.imgur.com/bmccmMT.png)
+
+Here's we are.
