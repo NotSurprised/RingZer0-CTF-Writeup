@@ -6,7 +6,7 @@ Hint said it got weird.zip which encrypt compress from weird.txt, and flag.zip u
 
 ![](https://i.imgur.com/FdoqsmA.png)
 
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+)
+![#f03c15 12356](https://placehold.it/15/f03c15/000000?text=+)
 
 First, we got a compress file. Uncompress it.
 ```shell=
