@@ -6,10 +6,12 @@ Hint said it got weird.zip which encrypt compress from weird.txt, and flag.zip u
 
 ![](https://i.imgur.com/FdoqsmA.png)
 
-![#f03c15 12356](https://placehold.it/15/f03c15/000000?text=+)
-
 First, we got a compress file. Uncompress it.
-```shell=
+```yaml
+ stages:
+   - build
+   - test
+   - deploy
 chmod 777 65a4fae4a9c5fd8cf9e4a5a5a295ade9.zip 
 unzip 65a4fae4a9c5fd8cf9e4a5a5a295ade9.zip 
 ```
