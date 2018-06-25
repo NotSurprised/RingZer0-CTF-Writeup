@@ -8,7 +8,11 @@ ssh -i ssh oracle@challenges.ringzer0team.com -p 10149
 
 First, login to the morpheus, then ssh localhost as oracle at port 10149.
 
-To decrypt the file encrypt by oracle, let's grep `openssl` for encrypt Key.
+We find a encrypted flag file in the Oracle user's home directory. The file is base64 encoded. When we decode the file, we see that the decoded string starts with "Salted__". 
+
+A quick google search of "salted base64" reveals some interesting articles. We find that we are looking at a file encrypted with the OpenSSL 'enc' command, so we try to use the following command to decrypt the file:
+
+To decrypt the file encrypt by oracle, let's grep `openssl` for else clues.
 
 ```shell
 cat .bashrc 
