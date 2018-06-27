@@ -1,8 +1,12 @@
 # Level 6
 
+![](https://i.imgur.com/d6Cwkmp.png)
+
 ```shell
 $ sshpass -p Flag-08grILsn3ekqhDK7cKBV6ka8B ssh trinity@challenges.ringzer0team.com -p 10090
 ```
+
+![](https://i.imgur.com/6p1BA7Z.png)
 
 ```shell
 trinity@forensics:~$ ls -la
