@@ -38,10 +38,6 @@ However, seems that someone make link ne to neo's phonebook, if we can `cat` thi
 To get permission to take place of neo, we need `sudo`.
 
 ```shell
-trinity@lxc-sysadmin:~$ sudo cat ne
-[sudo] password for trinity: 
-Sorry, user trinity is not allowed to execute '/bin/cat ne' as root on lxc-sysadmin.
-
 trinity@forensics:~$ sudo -l
 Matching Defaults entries for trinity on lxc-sysadmin:
     env_reset, mail_badpass,
@@ -65,7 +61,7 @@ Persephone        345-555-1244
 
 
 
-change my current password FLAG-lRGLKGh2895wIAoOvcBbgk4oL
+change my current password FLAG-XXXXXXXXXXXXXXXXXXXXXXXXX
 don't forget to remove this :) 
 The Oracle        1800-133-7133
 Persephone        345-555-1244
@@ -86,5 +82,5 @@ But knowm someone left the link.
 
 Answer:
 ```
-FLAG-lRGLKGh2895wIAoOvcBbgk4oL
+FLAG-XXXXXXXXXXXXXXXXXXXXXXXXX
 ```
