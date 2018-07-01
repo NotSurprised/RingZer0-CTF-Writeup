@@ -131,5 +131,5 @@ We can easily type command `reveal` to get the flag.
 
 ```shell
 $ reveal
-FLAG-IaFOjjFWazycSg0lbVO3T8ZTvz
+FLAG-XXXXXXXXXXXXXXXXXXXXXXXXX
 ```
