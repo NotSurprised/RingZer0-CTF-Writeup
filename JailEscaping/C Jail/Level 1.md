@@ -1,8 +1,10 @@
 # Level 1
-```
-level1@ringzer0team.com's password: 
-Last login: Sun Apr 24 05:48:42 2016 from
 
+![](https://i.imgur.com/ZYMp0X9.png)
+
+```shell
+ssh level1@challenges.ringzer0team.com -p 10228 
+password: level1 
 RingZer0 Team Online CTF
 
 C Jail Level 1:
@@ -56,46 +58,47 @@ int main(int argc, char **argv) {
 
     // Open file 
     if ((fd = open(filename, O_RDONLY)) < 0){
-        printf("hello");
+        printf("Can not open the flag!!");
+    } else {
+        // Read content
+        if((ret_in = read(fd, &buffer, 100)) > 0){
+            // Print buffer
+            printf("Flag: %s\n", buffer);
+        } else {
+            printf("Can not read the flag!!");
+        }    
     }
-
-    // Read content
-    while ((ret_in = read(fd, &buffer, 100)) > 0);
-
-    // Print buffer
-    printf("Flag: %s\n", buffer);
-    return 0;
-
 }
 ```
 Keep in mind that you'll have to paste only the contents of main():
 ```
-----------------------------
+-----------------------------
 Your C code:
-  int fd;
+    int fd;
     char *filename = "flag.txt";
     ssize_t ret_in;
     char buffer[100];
 
     // Open file 
     if ((fd = open(filename, O_RDONLY)) < 0){
-        printf("hello");
+        printf("Can not open the flag!!");
+    } else {
+        // Read content
+        if((ret_in = read(fd, &buffer, 100)) > 0){
+            // Print buffer
+            printf("Flag: %s\n", buffer);
+        } else {
+            printf("Can not read the flag!!");
+        }    
     }
-
-    // Read content
-    while ((ret_in = read(fd, &buffer, 100)) > 0);
-
-    // Print buffer
-    printf("Flag: %s\n", buffer);
-    return 0;
 DONE
 
 -----------------------------
 Compiling your code.
-/tmp/ec5378ac-32fb-4f92-af6c-807569d9a8be/bin.c: In function ‘_ba91abe8889543278d28244379cec68d’:
-/tmp/ec5378ac-32fb-4f92-af6c-807569d9a8be/bin.c:27:5: warning: ‘return’ with a value, in function returning void [enabled by default]
-     return 0;
-     ^
 Executing your code.
 Flag: FLAG-ql3mI2Z8fGq56kK5QdwK8oMxgWwvji8R
+
+Your C code:
 ```
+
+![](https://i.imgur.com/38keYCT.png)
