@@ -1,7 +1,5 @@
 # Level 2
 
-![](https://i.imgur.com/g8JCYSl.png)
-
 ```shell
 ssh level2@challenges.ringzer0team.com -p 10229 
 password: FLAG-ql3mI2Z8fGq56kK5QdwK8oMxgWwvji8R
@@ -42,115 +40,34 @@ You CANNOT use the "asm" keyword
 Your C code:
 ```
 
-Like `Level 1`:
-* `-O3` means optimize. 
-* `-Wall` mean print all warning. 
-* `–fstack-protector-all` add and check canary into every function. 
-* `-fPIE` random the virtual memory which it reflect to.
+Pretty much the same as in the first challenge. However, some functions like fopen, open, fdopen were not allowed. Finally I bought the hint:
 
-Let's try what function is overrided.
+Is there a 64 bits wrapper for open?
 
+And of course there is open64(). open() and open64() use the open syscall internally. The main difference is that open64() is equivalent to open() with O_LARGEFILE in order to support large files in 32 bit applications. Here is my solution (shitty code, don't use in production :D):
 ```
+-----------------------------
 Your C code:
-    char buffer[1024];
+   char buffer[100];
     FILE *fp;
-    fp = fopen("flag.txt", O_RDONLY);
-    fread(buffer, 1024, 0, fp);
-    printf("flag: %s\n", buffer);
-    fclose(fp);
-DONE
-*** Warning: "fopen" function is disabled
-```
-
-```
-Your C code:
-    char buffer[1024];
-    FILE *fp;
-    fp = fopen64("flag.txt", "r");
-    fread(buffer, 1024, 0, fp);
-    printf("flag: %s\n", buffer);
-    fclose(fp);
-DONE
-*** warning: implicit declaration of function
-*** Warning: "malloc" function is disabled
-```
-
-```
-Your C code:
-    char buffer[1024];
-    int fd;
-    fd = fdopen("flag.txt", O_RDONLY);
-    pread(fd, buffer, 1024, 0);
-    printf("flag: %s\n", buffer);
-DONE
-*** Warning: "fdopen" function is disabled
-*** Warning: "pread" function is disabled
-```
-
-```
-Your C code:
-    char buffer[1024];
-    int fd;
-    fd = open("flag.txt", O_RDONLY);
-    read(fd, buffer, 1024);
-    printf("flag: %s\n", buffer);
-    close(fd);
-DONE
-*** Warning: "open" function is disabled
-*** Warning: "read" function is disabled
-```
-
-```
-Your C code:
-    char buffer[1024];
     int fd;
     fd = open64("flag.txt", O_RDONLY);
-    pread64(fd, buffer, 1024, 0);
+    pread64(fd, buffer, 100, 0);
     printf("flag: %s\n", buffer);
-    close(fd);
 DONE
+
+-----------------------------
+Compiling your code.
+/tmp/41d5ddc3-8d6b-42ce-a2cf-1026fcfe463f/bin.c: In function ‘_4fa8c04676486ca36ba261f8387a2b9d’:
+/tmp/41d5ddc3-8d6b-42ce-a2cf-1026fcfe463f/bin.c:15:5: warning: implicit declaration of function ‘open64’ [-Wimplicit-function-declaration]
+     fd = open64("flag.txt", O_RDONLY);
+     ^
+/tmp/41d5ddc3-8d6b-42ce-a2cf-1026fcfe463f/bin.c:16:5: warning: implicit declaration of function ‘pread64’ [-Wimplicit-function-declaration]
+     pread64(fd, buffer, 100, 0);
+     ^
+/tmp/41d5ddc3-8d6b-42ce-a2cf-1026fcfe463f/bin.c:13:11: warning: unused variable ‘fp’ [-Wunused-variable]
+     FILE *fp;
+           ^
+Executing your code.
 flag: FLAG-0416ewrN2o058901Aqf4w9hsyH0dfqzd
-```
-
-```
-Your C code:
-    char buffer[1024];
-    FILE *fp;
-    fp = popen("flag.txt", 'r');
-    while (fgets(buffer, 1024, fp) != NULL)
-        printf("flag: %s", buffer);
-    pclose(fp);    
-DONE
-*** Warning: "malloc" function is disabled
-/home/level2/prompt.sh: line 81:  5986 Segmentation fault      LD_PRELOAD=/home/level2/override.so /tmp/$filename/bin
-```
-
-```
-Your C code:
-    char buffer[1024];
-    int fd;
-    fd = creat("flag.txt", O_RDONLY);
-    pread64(fd, buffer, 1024, 0);
-    printf("flag: %s\n", buffer);
-    close(fd);
-DONE
-*** Warning: "creat" function is disabled
-```
-
-```
-Your C code:
-    char buffer[1024];
-    int fd;
-    fd = creat64("flag.txt", O_RDONLY);
-    pread64(fd, buffer, 1024, 0);
-    printf("flag: %s\n", buffer);
-    close(fd);
-DONE
-*** warning: implicit declaration of function ‘creat64’ 
-```
-
-`open()` and `open64()`use the open syscall internally. The main difference is that `open64()` is equivalent to `open()` with `O_LARGEFILE` in order to support large files in 32 bit applications.
-
-```
-FLAG-0416ewrN2o058901Aqf4w9hsyH0dfqzd
 ```
