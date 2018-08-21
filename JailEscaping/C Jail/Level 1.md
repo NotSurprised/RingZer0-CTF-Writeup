@@ -41,10 +41,10 @@ You CANNOT use the "asm" keyword
 Your C code:
 ```
 
-`-O3` means optimize.
-`-Wall` mean print all warning.
-`–fstack-protector-all` add and check canary into every function.
-`-fPIE` random the virtual memory which it reflect to.
+* `-O3` means optimize. 
+* `-Wall` mean print all warning. 
+* `–fstack-protector-all` add and check canary into every function. 
+* `-fPIE` random the virtual memory which it reflect to.
 
 So obviously I have to write some C code to read the content of `/home/level1/flag.txt`. 
 
