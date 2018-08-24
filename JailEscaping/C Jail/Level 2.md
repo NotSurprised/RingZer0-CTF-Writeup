@@ -90,31 +90,6 @@ DONE
 ```
 Your C code:
     char buffer[1024];
-    int fd;
-    fd = open("flag.txt", O_RDONLY);
-    read(fd, buffer, 1024);
-    printf("flag: %s\n", buffer);
-    close(fd);
-DONE
-*** Warning: "open" function is disabled
-*** Warning: "read" function is disabled
-```
-
-```
-Your C code:
-    char buffer[1024];
-    int fd;
-    fd = open64("flag.txt", O_RDONLY);
-    pread64(fd, buffer, 1024, 0);
-    printf("flag: %s\n", buffer);
-    close(fd);
-DONE
-flag: FLAG-0416ewrN2o058901Aqf4w9hsyH0dfqzd
-```
-
-```
-Your C code:
-    char buffer[1024];
     FILE *fp;
     fp = popen("flag.txt", 'r');
     while (fgets(buffer, 1024, fp) != NULL)
@@ -148,6 +123,33 @@ Your C code:
 DONE
 *** warning: implicit declaration of function ‘creat64’ 
 ```
+
+```
+Your C code:
+    char buffer[1024];
+    int fd;
+    fd = open("flag.txt", O_RDONLY);
+    read(fd, buffer, 1024);
+    printf("flag: %s\n", buffer);
+    close(fd);
+DONE
+*** Warning: "open" function is disabled
+*** Warning: "read" function is disabled
+```
+
+```
+Your C code:
+    char buffer[1024];
+    int fd;
+    fd = open64("flag.txt", O_RDONLY);
+    pread64(fd, buffer, 1024, 0);
+    printf("flag: %s\n", buffer);
+    close(fd);
+DONE
+flag: FLAG-0416ewrN2o058901Aqf4w9hsyH0dfqzd
+```
+
+I just brutal force it, I still not get the solution that make sense.
 
 `open()` and `open64()`use the open syscall internally. The main difference is that `open64()` is equivalent to `open()` with `O_LARGEFILE` in order to support large files in 32 bit applications.
 
