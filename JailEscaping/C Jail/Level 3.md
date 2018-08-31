@@ -1,5 +1,8 @@
 # Level 3
 ```c
+ssh level2@challenges.ringzer0team.com -p 10230 
+password: FLAG-0416ewrN2o058901Aqf4w9hsyH0dfqzd
+
 RingZer0 Team Online CTF
 
 C Jail Level 3:
