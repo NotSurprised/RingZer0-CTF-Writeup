@@ -39,9 +39,19 @@ You CANNOT use the "asm,open,read,mmap,brk,sh,#,sys,\x" keyword
 Your C code:
 ```
 
-I must admit that although this challenge wasn't that difficult it took me way to much time to find a reasonable solution. My first ideea was to write shellcode that would read `flag.txt` and dump its content. This is also the reason I wrote "[Testing Shellcodes](http://blog.dornea.nu/2016/08/23/testing-shellcodes/)". However, I've noticed that `\x` (hex code) couldn't be used as a keyword. Instead of giving up my first idea I should have think of some way how to re-write those hex codes to sth different: octal values or integer values of chars. That way I would have had bypassed the `\x` restriction.
+I must admit that although this challenge wasn't that difficult it took me way too much time to find a reasonable solution. 
 
-First I'll try to write down my thoughts which lead to the solution. Afterwards I'll show some other cool solutions I've seen in the write-ups.
+My first ideea was to write shellcode that would read `flag.txt` and dump its content. This is also the reason I wrote "[Testing Shellcodes](http://blog.dornea.nu/2016/08/23/testing-shellcodes/)". 
+
+However, I've noticed that `\x` (hex code) couldn't be used as a keyword. 
+
+Instead of giving up my first idea I should have think of some way how to re-write those hex codes to something different: octal values or integer values of chars. 
+
+That way I could bypassed the `\x` restriction.
+
+First I'll try to write down my thoughts which lead to the solution.
+
+Afterwards I'll show some other cool solutions I've seen in the write-ups.
 
 After trying hard I've decided to buy the hint:
 
